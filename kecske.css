@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+    margin: auto;
+}
+
+main {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    
+}
+
+header {
+    flex: 0 0 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+footer {
+    border: 1px solid black;
+}
+
+.kozep {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+article {
+    background-image: url('kepek/csonak.jpg');
+    background-repeat: no-repeat;
+    flex: calc(50% - 10px);
+    border: 1px solid black;
+    height: 500px;
+}
+
+#bal {
+    flex: calc(25% - 10px);
+    border: 1px solid black;
+}
+
+#jobb {
+    flex: calc(25% - 10px);
+    border: 1px solid black;
+}
+
+img {
+    width: 100px;
+}
+
+footer p {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.szegely {
+    border: 1px solid black;
+}
+
+#csonak {
+    margin-right: 50px;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+
